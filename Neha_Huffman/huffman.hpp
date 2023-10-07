@@ -53,6 +53,10 @@ string read_from_file(const string& filename);
 
  string decode(Node* root, const string& encoded_str);
 
+ int binToDec(string inStr);
+
+ string decToBin(int inNum);
+
  public:
  void encoding();
  void decoding();
